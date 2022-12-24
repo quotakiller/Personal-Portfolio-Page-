@@ -1,0 +1,194 @@
+* {
+    
+    scroll-behavior: smooth;
+    font-family: Copperplate, Garamond;
+}
+
+body {
+  background-color: #000000;
+  
+
+}
+
+#welcome-section {
+  text-align: center;
+  background-color: black; 
+  margin-top: 300;
+  min-height: 500px;
+  color: white; 
+  font-family: Copperplate, Papyrus;
+  font-size: 40px;
+  padding: 40px;
+}
+
+.profile-pic {
+  margin-top: 6%;
+  border-radius: 50%;
+  
+
+}
+
+/* sections css */
+
+#projects {
+ 
+   background-color: white; 
+   color: black; 
+   font-family: Copperplate, Garamond;
+   justify-content: space-evenly; 
+  
+   
+    
+}
+
+
+
+.project-tile {
+  text-align: center; 
+  background-color: #FFFFFF; 
+  color: black; 
+  font-size: 30px;
+ padding: 15px;
+
+  
+}
+
+.project1 {
+  
+  display: inline-block;
+  
+  width: 300px;
+  height: 300px;
+  
+  background-color: none;
+  margin-left: 1%;
+  text-align: center; 
+ 
+}
+
+.project2 {
+  
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  
+ background-color: none;
+  margin-left: 142%;
+  margin-top: -101%;
+  text-align: center; 
+  
+}
+
+.project3 {
+
+display: inline-block;
+  width: 300px;
+  height: 300px;
+  
+  background-color: none;
+  margin-left: 142%;
+  text-align: center; 
+  margin-top: -101%;
+
+  }
+
+ 
+
+
+
+  #contact {
+  min-height: 200px;
+  min-width: 1250px;
+   background-color: black; 
+   color: white; 
+   font-family: Copperplate, Garamond;
+   justify-content: space-evenly; 
+   margin-bottom: 8%;
+  }
+
+  article {
+    text-align: center; 
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 4%;
+    margin-top: 4%;
+   
+  }
+
+
+  /*media quries */
+
+  @media (hover: hover) {
+  a:hover {
+    color: red;
+    background-color: black;
+  }
+
+  a:visited { 
+ text-decoration: none; 
+ color: white;
+}
+
+ iframe:hover {
+    box-shadow: 5px 15px 20px #CE1141;
+  }
+
+
+  }
+
+/* navbar css */
+
+#navbar {
+  width: 100%;
+  height: 55px;
+  background-color: #CE1141;
+  overflow: auto; 
+  position: fixed;
+  margin-top: -300; 
+  margin-left: -10px;
+}
+
+.nav-link {
+  float: right;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 28px;
+  text-decoration: none;
+  margin-top: -10; 
+}
+
+/*social*/
+
+.fa {
+  padding: 40px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 12px -22px 204px;
+  border-radius: 50%;
+  justify-content: space-evenly;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-left: 20%;
+}
+
+.fa-github {
+ 
+  margin-top: -7%;
+}
+
+
